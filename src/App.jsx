@@ -18,7 +18,7 @@ function App() {
           </a>
         </div>
         <h1 className='text-white text-6xl font-bold'>Vite + React</h1>
-        <h3 className='text-white mb-16'>Barick Muhammad Dziellan</h3>
+        <h3 className='text-white mb-16 font-poppins'>Barick Muhammad Dziellan</h3>
         <div className="text-sm space-y-6 mb-8">
           <button onClick={() => setCount((count) => count + 1)} className='bg-neutral-900 text-white py-2 px-6 rounded-lg text-lg'>
             count is {count}
@@ -27,8 +27,12 @@ function App() {
             Edit <code>src/App.jsx</code> and save to test HMR
           </p>
         </div>
-        <p className="text-neutral-500">
-          Click on the Vite and React logos to learn more
+        <p className="text-primary">
+          Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Illum perferendis dolores provident debitis,
+          necessitatibus ullam, quibusdam dolore cumque velit, molestias
+          recusandae exercitationem pariatur. Quas ullam aliquid ea. Repellat,
+          exercitationem similique!
         </p>
       </div> 
     </>
