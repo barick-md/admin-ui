@@ -1,6 +1,6 @@
 import "./App.css";
 
-function App() {
+function Login() {
   return (
     <main className="min-h-screen bg-special-mainBg flex justify-center items-center">
       {/* container start */}
@@ -139,4 +139,4 @@ function App() {
   );
 }
 
-export default App;
+export default Login;
