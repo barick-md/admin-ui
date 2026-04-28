@@ -7,7 +7,7 @@ function PostCard({ id, userId, title, body }) {
     <div
       className=" 
         flex flex-col bg-white p-6 rounded-lg transition-shadow
-        hover:scale-110 hover:border-black hover:bg-red-200
+        hover:scale-105 hover:border hover:bg-red-200
       "
     >
       
