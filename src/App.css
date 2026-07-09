@@ -28,3 +28,9 @@ html{
 
   --color-special-red2: #b83016;
 }
+
+@layer base {
+  button, [role="button"] {
+    cursor: pointer;
+  }
+}

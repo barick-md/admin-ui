@@ -8,13 +8,14 @@ function PostCard({ id, userId, title, body }) {
       className=" 
         flex flex-col bg-white p-6 rounded-lg transition-shadow
         hover:scale-110 hover:border-black hover:bg-red-200
+        transition-all cursor-pointer
       "
     >
       
       <h2 className="text-base font-bold text-gray-800 mb-3 text-center">
         {title}
       </h2>
-      
+
       <p className="text-gray-600 text-sm text-center flex-grow">{body}</p>
     
       <button 
