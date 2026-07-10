@@ -6,6 +6,7 @@ html{
 }
 
 @import "tailwindcss";
+@custom-variant hover (&:hover);
 
 @theme {
   --font-body: "Inter", sans-serif;
@@ -25,8 +26,27 @@ html{
   --color-special-mainBg: #f4f5f7;
   --color-special-green: #4daf6e;
   --color-special-red: #e73d1c;
-
   --color-special-red2: #b83016;
+}
+
+.theme-green {
+  --color-primary: #299d91;
+}
+
+.theme-blue {
+  --color-primary: #1e90ff;
+}
+
+.theme-purple {
+  --color-primary: #6a5acd;
+}
+
+.theme-pink {
+  --color-primary: #db7093;
+}
+
+.theme-brown {
+  --color-primary: #8b4513;
 }
 
 @layer base {

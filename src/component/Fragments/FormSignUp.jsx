@@ -1,6 +1,7 @@
 import React from "react";
 import LabeledInput from "../Elements/LabeledInput";
 import Button from "../Elements/Button";
+import { Link, NavLink } from 'react-router-dom';
 
 function FormSignUp() {
   return (
@@ -17,7 +18,7 @@ function FormSignUp() {
               label="Name"
               id="name"
               type="text"
-              placeholder="Tanzir Rahman"
+              placeholder="Barick Muhammad Dziellan"
               name="name"
             />
           </div>
@@ -71,6 +72,7 @@ function FormSignUp() {
             <svg
               className="h-6 w-6 mr-2"
               xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
               viewBox="-0.5 0 48 48"
             >
               <path
@@ -101,10 +103,10 @@ function FormSignUp() {
         <span className="text-gray-03">
           Already have an account?{" "}
         </span>
-
-        <a href="/signin" className="ml-1 font-semibold text-primary hover:underline">
-          Sign in here
-        </a>
+        <NavLink to ="/login" className="ml-1 font-semibold text-primary hover:underline">
+          <span>Sign in here</span>
+        </NavLink>
+        
       </div>
     </>
   );

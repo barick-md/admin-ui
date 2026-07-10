@@ -1,4 +1,1 @@
 @import "tailwindcss";
-
-/* Override hover agar kembali seperti v3 */
-@custom-variant hover (&:hover);
