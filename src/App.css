@@ -27,6 +27,9 @@ html{
   --color-special-green: #4daf6e;
   --color-special-red: #e73d1c;
   --color-special-red2: #b83016;
+
+  --color-dark-card: #242526;
+  --color-dark-bg: #3a3b3c;
 }
 
 .theme-green {
